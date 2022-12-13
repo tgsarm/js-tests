@@ -1,4 +1,4 @@
-const logger = require('../../utils/logger');
+const logger = require('../../framework/utils/logger');
 const {testData} = require('../data/test.data');
 const {requests} = require('../requests/requests');
 const axios = require('axios');

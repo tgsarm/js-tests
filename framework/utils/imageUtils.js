@@ -1,5 +1,5 @@
 const {imgDiff} = require("img-diff-js");
-const {testData} = require('../test/data/test.data');
+const {testData} = require('../../test/data/test.data');
 const logger = require ('./logger');
 
 class ImageUtils {

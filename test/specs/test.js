@@ -1,16 +1,16 @@
 const assert = require('chai').assert;
 const fs = require('fs/promises');
-const {nextAlphanumericString} = require('../../utils/randomizer');
+const {nextAlphanumericString} = require('../../framework/utils/randomizer');
 const {testData} = require('../data/test.data');
-const logger = require('../../utils/logger');
+const logger = require('../../framework/utils/logger');
 const WelcomePage = require('../pageobjects/welcome.page');
 const FeedPage = require('../pageobjects/feed.page');
 const AuthPage = require('../pageobjects/auth.page');
 const MyProfilePage = require('../pageobjects/myProfile.page');
 const VkApiUtils = require('../api/vkApiUtils');
 const FormData = require('form-data');
-const Downloader = require('../../utils/downloader');
-const ImageUtils = require('../../utils/imageUtils');
+const Downloader = require('../../framework/utils/downloader');
+const ImageUtils = require('../../framework/utils/imageUtils');
 
 describe('Vk user actions', () => {
     before(async () => {

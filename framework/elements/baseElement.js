@@ -1,4 +1,4 @@
-const logger = require('../../utils/logger');
+const logger = require('../utils/logger');
 const testData = require('../../test/data/test.data');
 
 module.exports = class BaseElement {

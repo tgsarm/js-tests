@@ -1,7 +1,7 @@
 const TextLabel = require('../../framework/elements/textLabel');
 const Link = require('../../framework/elements/link');
 const BaseElement = require('../../framework/elements/baseElement');
-const logger = require('../../utils/logger');
+const logger = require('../../framework/utils/logger');
 
 module.exports = class WallPostComment extends BaseElement {
 
